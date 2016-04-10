@@ -1,214 +1,105 @@
-<!-- navigation panel -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Paradox Fusion Designs</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><%= link_to 'Home', root_path %>
-                    </li>
-                    <li><a href="#about">About</a>
-                    </li>
-                    <li><a href="#designs">Designs</a>
-                    </li>
-                    <li><a href="#google_map">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- first section - Home -->
-    <div id="home" class="home">
-        <div class="text-vcenter">
-            <h1 class="welcome">Welcome</h1>
-            <h3 class="welcome">About Paradox Fusion Designs</h3>
-            <a href="#about" class="btn btn-default btn-lg">Enter</a>
-        </div>
-    </div>
-    <!-- /first section -->
-    <!-- second section - About -->
-    <div id="about" class="pad-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <%= image_tag 'logo-lg.png' %>
-                </div>
-                <div class="col-sm-6 text-center">
-                    <h2>Welcome to Paradox Fusion Designs.</h2>
-                    <p class="lead">Were we take a pragmatic look at your design needs and bend the will of the digital age to meet your needs!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /second section -->
-    <!-- third section - Services -->
-    <div id="designs" class="pad-section">
-        <div class="container">
-            <h2 class="text-center">Designs</h2>
-            <hr />
-            <div class="row text-center">
-                <div class="col-sm-3 col-xs-6">
-                    <i class="glyphicon glyphicon-edit"> </i>
-                    <h4>Logo Design</h4>
-                    <p>Wether you have an existing logo or are in need of a new fresh idea, we can help!</p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <i class="glyphicon glyphicon-cloud"> </i>
-                    <h4>Web Site Design</h4>
-                    <p>Design a custome online presence for you or your business.</p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <i class="glyphicon glyphicon-book"> </i>
-                    <h4>Print Design</h4>
-                    <p>Books, flyers, handouts, programs, we do it all!</p>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <i class="glyphicon glyphicon-phone"> </i>
-                    <h4>Custom Web Apps</h4>
-                    <p>Got an idea for an exciting new web app? We can bring that dream to life!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /third section -->
-<!-- fourth section - Example Work -->
-<div id="information" class="pad-section">
-<div class="container">
-
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h1 class="page-header">Example Work</h1>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/maryland.png">
-                    <img class="img-responsive" src="images/maryland.png" alt="">
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/typography%20example.png">
-                    <img class="img-responsive" src="images/typography%20example.png" alt="">
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/social_media_logos.fw.png">
-                    <img class="img-responsive" src="images/social_media_logos.fw.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/Thompson-IP3-3.jpg">
-                    <img class="img-responsive" src="images/Thompson-IP3-3.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/Thompson-IP2-333.jpg">
-                    <img class="img-responsive" src="images/Thompson-IP2-333.jpg" alt="">
-                </a>
-                
-            </div>
-           <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <a class="thumbnail" href="images/Thompson-IP1.jpg">
-        <img class="img-responsive" src="images/Thompson-IP1.jpg" alt="">
-    </a>
+<div class="top-bar">
+<div class="top-bar-left">
+<ul class="menu">
+<li class="menu-text">Jet's Alpha Blog</li>
+</ul>
 </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/hompage.png">
-                    <img class="img-responsive" src="images/hompage.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/banner.fw.png">
-                    <img class="img-responsive" src="images/banner.fw.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/Home.png">
-                    <img class="img-responsive" src="images/Home.png" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/Thompson-CS347-IP2-Visio.jpg">
-                    <img class="img-responsive" src="images/Thompson-CS347-IP2-Visio.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="images/network.jpg">
-                    <img class="img-responsive" src="images/network.jpg" alt="">
-                </a>
-            </div>
-        </div>
+<div class="top-bar-right">
+<ul class="menu">
+<li><%= link_to 'Home', root_path %></li>
+<li><%= link_to 'About', about_path %></li>
+<li><a href="#">Three</a></li>
+<li><a href="#">Four</a></li>
+</ul>
 </div>
-    </div>
-<!-- /fourth section -->
-
-    <!-- fifth section -->
-    <div id="designs" class="pad-section">
-        <div class="container">
-            <div class="row center">
-                <div class="col-sm-12 text-center">
-<div class="container">
-  <div class="row col-centered">
-    
-    <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-default btn-lg" data-toggle="modal">Contact Us</a></h1>
-<div class="col-sm-1 thumb"><a href="https://www.facebook.com/jet81"><img src="images/fb-icon.png" alt="Facebook" /></a></div>
-      <div class="col-sm-1 thumb"> <a class="inline" href="https://plus.google.com/+JamieThompson99"><img src="images/g+-icon.png" alt="Google+" /></a></div>
-    <div class="col-sm-1 thumb">  <a class="inline" href="https://www.linkedin.com/in/jamesthompson81">
-        <img src="images/linkedin-icon.png" alt="LinkedIn" /></a> </div>
-  </div>
 </div>
-
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">We'd Love to Hear From You</h3>
-      </div>
-      <div class="modal-body">
-        <form class="form-horizontal col-sm-12">
-          <div class="form-group"><label>Name</label><input class="form-control required" placeholder="Your name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text"></div>
-          <div class="form-group"><label>Message</label><textarea class="form-control" placeholder="Your message here.." data-placement="top" data-trigger="manual"></textarea></div>
-          <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="email@you.com (so that we can contact you)" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@gmail.com)" type="text"></div>
-          <div class="form-group"><label>Phone</label><input class="form-control phone" placeholder="999-999-9999" data-placement="top" data-trigger="manual" data-content="Must be a valid phone number (999-999-9999)" type="text"></div>
-          <div class="form-group"><button type="submit" class="btn btn-success pull-right">Send It!</button> <p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not valid. </p></div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-      </div>
-    </div>
-  </div>
+ 
+<div class="callout large primary">
+<div class="row column text-center">
+<h1>Our Blog</h1>
 </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!-- /fifth section -->
-
-    <!-- google map -->
-    <div id="google_map"></div>
-    <!-- /google map -->
-
-    <!-- footer -->
-    <footer>
-        <hr />
-        <div class="container">
-            <p class="text-right">Copyright &copy; Paradox Fusion Designs 2015</p>
-        </div>
-    </footer>
-    <!-- /footer -->
+</div>
+<div class="row" id="content">
+<div class="medium-8 columns">
+<div class="blog-post">
+<h3>Awesome blog post title <small>3/6/2015</small></h3>
+<img class="thumbnail" src="http://placehold.it/850x350">
+<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+<div class="callout">
+<ul class="menu simple">
+<li><a href="#">Author: Mike Mikers</a></li>
+<li><a href="#">Comments: 3</a></li>
+</ul>
+</div>
+</div>
+<div class="blog-post">
+<h3>Awesome blog post title <small>3/6/2015</small></h3>
+<img class="thumbnail" src="http://placehold.it/850x350">
+<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+<div class="callout">
+<ul class="menu simple">
+<li><a href="#">Author: Mike Mikers</a></li>
+<li><a href="#">Comments: 3</a></li>
+</ul>
+</div>
+</div>
+<div class="blog-post">
+<h3>Awesome blog post title <small>3/6/2015</small></h3>
+<img class="thumbnail" src="http://placehold.it/850x350">
+<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+<div class="callout">
+<ul class="menu simple">
+<li><a href="#">Author: Mike Mikers</a></li>
+<li><a href="#">Comments: 3</a></li>
+</ul>
+</div>
+</div>
+<div class="blog-post">
+<h3>Awesome blog post title <small>3/6/2015</small></h3>
+<img class="thumbnail" src="http://placehold.it/850x350">
+<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
+<div class="callout">
+<ul class="menu simple">
+<li><a href="#">Author: Mike Mikers</a></li>
+<li><a href="#">Comments: 3</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="medium-3 columns" data-sticky-container>
+<div class="sticky" data-sticky data-anchor="content">
+<h4>Categories</h4>
+<ul>
+<li><a href="#">Skyler</a></li>
+<li><a href="#">Jesse</a></li>
+<li><a href="#">Mike</a></li>
+<li><a href="#">Holly</a></li>
+</ul>
+<h4>Authors</h4>
+<ul>
+<li><a href="#">Skyler</a></li>
+<li><a href="#">Jesse</a></li>
+<li><a href="#">Mike</a></li>
+<li><a href="#">Holly</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row column">
+<ul class="pagination" role="navigation" aria-label="Pagination">
+<li class="disabled">Previous</li>
+<li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+<li><a href="#" aria-label="Page 2">2</a></li>
+<li><a href="#" aria-label="Page 3">3</a></li>
+<li><a href="#" aria-label="Page 4">4</a></li>
+<li class="ellipsis"></li>
+<li><a href="#" aria-label="Page 12">12</a></li>
+<li><a href="#" aria-label="Page 13">13</a></li>
+<li><a href="#" aria-label="Next page">Next</a></li>
+</ul>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+    </script>
