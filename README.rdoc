@@ -1,5 +1,6 @@
 == README
-
+v0.1
 Entanglment is a blogging platform built on top of Ruby on Rails.
 
 More info to come as more features are brought on line.
+
