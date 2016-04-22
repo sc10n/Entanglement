@@ -9,5 +9,6 @@ More info to come as more features are brought on line.
 Multi user platform
 Editable categories
 lightweight
-
+Easy to Setup and maintain
+Secure
 
